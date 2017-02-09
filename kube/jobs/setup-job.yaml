@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
       - name: setup
-        image: deepaktarkalabs/webapp:9e31459
+        image: deepaktarkalabs/webapp:3d72672
         command: ["/bin/bash", "./setup.production.sh"]
         env:
         - name: PASSENGER_APP_ENV
