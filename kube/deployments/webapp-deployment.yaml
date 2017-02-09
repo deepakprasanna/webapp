@@ -27,7 +27,7 @@ spec:
         tier: frontend
     spec:
       containers:
-        - image: deepaktarkalabs/webapp:3d72672
+        - image: deepaktarkalabs/webapp:03297a8
           name: webapp
           env:
           - name: PASSENGER_APP_ENV
